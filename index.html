@@ -1,0 +1,45 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>To-do List | CJRM</title>
+</head>
+<body class="bg-dark">
+  <div class="container">
+
+    <header class="text-center text-light my-4">
+      <h1 class="mb-4">To-do List</h1>
+      <form class="search">
+        <input class="form-control m-auto" type="text" name="search" placeholder="Buscar to-do" />
+      </form>
+    </header>
+
+    <ul class="list-group todos mx-auto text-light">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Assistir Breaking Bad</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Planejar aulas</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <span>Fazer exercícios físicos</span>
+        <i class="far fa-trash-alt delete"></i>
+      </li>
+    </ul>
+
+    <form class="add text-center my-4">
+      <label class="text-light">Adicionar to-do</label>
+      <input class="form-control m-auto" type="text" name="add" />
+    </form>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
