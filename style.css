@@ -10,7 +10,7 @@ input[type=text]:focus{
   max-width: 400px;
 }
 
-.todos li{
+.todos-container li{
   background: #484E53;
 }
 
